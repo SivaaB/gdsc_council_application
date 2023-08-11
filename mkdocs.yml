@@ -16,13 +16,13 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: #4285F4
-      accent: #F4B400
+      primary: "#4285F4"
+      accent: "#F4B400"
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: #4285F4
+      primary: "#4285F4"
       accent: lime
 
 markdown_extensions:
@@ -48,5 +48,4 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-copyright: |
-  &copy; 2023 <a href="https://github.com/sivaab"  target="_blank" rel="noopener">Sivaa B</a>
+copyright: "&copy; 2023 <a href='https://github.com/sivaab'  target='_blank' rel='noopener'>Sivaa B</a>"
