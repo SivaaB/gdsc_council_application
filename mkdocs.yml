@@ -1,5 +1,4 @@
-site_name: GDSC Council SoP
-site_url: https://sivaab.github.io/gdsc_sop/
+site_name: GDSC Council Application
 theme:
   name: material
   features:
