@@ -4,6 +4,17 @@
 -  To address common challenges and improve the overall college experience for students. 
 - The problems identified need not be within BPDC.
 
+## 📦 **Pre-Competition Material**
+
+-  Judges and/or Mentors will have to be reached out to, using the alumni relations cell. Plan is to invite a mix of judges from different industries.
+-  Could collaborate with CIIED and outsource some of the post-event rewards such as providing access to Incubation Center.etc.
+-  Could collaborate with Student Council to implement the solutions to problems found by the winning team(s).
+
+## 🏗️ **Pre-Requisites from Marketing and Logistics** 
+
+-  Logistics will have to foster all above mentioned collaborations with CIIED & Student Council. Will also have to communicate with Alumni Relations about getting Judges and/or Mentors.
+-  Marketing will have to ensure all "collaborators" are putting an equal foot towards promoting the event, since this event in particular has a lot of tie-ups with other clubs.
+
 ## 📋 **Format**
 
 - **Problem Identification:** Participants would be encouraged to identify and analyze common problems faced by college students in their daily lives. These problems could be related to academic life, campus resources, student engagement, mental health, physical well-being (health insurance), and transportation.
@@ -19,4 +30,4 @@
 - **Awards and Recognition:** Winners would be selected based on the judges' evaluations, and awards would be given to the top-performing teams. The awards could include recognition, cash prizes, mentorship, internships, or potential partnerships to further develop and implement their solutions.
 
 ## 🚀 **What's Next?**
-- **Implementation and Collaboration Opportunities:** The competition organizers could collaborate with the college administration, relevant student organizations, and local technology companies to explore opportunities for implementing the winning solutions on campus. This could involve piloting the solutions, securing funding or resources, or establishing partnerships to bring the ideas to life.
+- **Implementation and Collaboration Opportunities:** We could collaborate with the college administration, relevant student organizations, and local technology companies to explore opportunities for implementing the winning solutions on campus. This could involve piloting the solutions, securing funding or resources, or establishing partnerships to bring the ideas to life.
