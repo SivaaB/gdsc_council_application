@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">
-GDSC Council SoP
+GDSC Council Application
 </h1>
 
 <p align="center">
@@ -18,6 +18,6 @@ GDSC Council SoP
 For Reference Only 
 </pre>
 
-<br>This is a repository to encapsulate all SoP(s) within the GDSC Club at BITS Pilani, Dubai. 
+<br>This is a repository to encapsulate everything learned surrounding MkDocs. 
 
 </p>
