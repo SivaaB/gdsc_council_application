@@ -19,21 +19,6 @@ graph TD
 
 ***Winning prizes included, GDSC Shirts and Stickers!***
 
-```mermaid
-graph TD
-    A[Start] --> B[Understand Problem]
-    B --> C[Identify Concepts]
-    C --> D[Create Prompt]
-    D --> E[Generate Variations]
-    E --> F[Add Context]
-    F --> G[Refine Prompt]
-    G --> H[Finalize Prompt]
-    H --> I[Use in Model]
-    I --> J[Observe Output]
-    J --> K[Iterate]
-    K --> L[End]
-```
-
 ## 3. GDSC x IEI Coding Warfare: Technofest [May 3rd, 2023]
 
 A captivating showcase of coding prowess unfolded at GDSC x IEI Coding Warfare during Technofest 2023 at BITS Pilani Dubai Campus. On May 3rd, the solo round tested participants with competitive programming questions, evaluating their coding abilities, problem-solving skills, and speed. The event was conducted on the [Hackerrank](https://www.hackerrank.com) platform, ensuring an equitable and standardized environment for all participants.
