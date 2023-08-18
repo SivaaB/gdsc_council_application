@@ -4,7 +4,7 @@
 
 On October 20, 2022, the Google Developer Student Club (GDSC) orchestrated **MINDHUNTER**, a diverse challenge blending [cryptography](https://en.wikipedia.org/wiki/Cryptography), [steganography](https://en.wikipedia.org/wiki/Steganography), [web pwning](https://delinea.com/what-is/pwn#:~:text=PWN%20is%20hacker%20jargon%20meaning,a%20misspelling%20of%20“owned.”), and more. Participants delved into intricate questions on a custom web server, revealing elusive **Flags** to amass points. With approximately 50 on-site and a multitude of online attendees, the event's triumph was evident in participants' unwavering enthusiasm and dedication. **MINDHUNTER** effectively imparted education, inspiration, and dynamic problem-solving engagement.
 
-```
+```mermaid
 graph TD
     MINDHUNTER[MINDHUNTER]
     MINDHUNTER --> Cryptography[Cryptography]
@@ -19,7 +19,7 @@ graph TD
 
 ***Winning prizes included, GDSC Shirts and Stickers!***
 
-```
+```mermaid
 graph TD
     A[Start] --> B[Understand Problem]
     B --> C[Identify Concepts]
