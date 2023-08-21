@@ -1,4 +1,4 @@
-# Event Recap: 
+# Event Recap
 
 ## 1. Capture the Flag - Mindhunter [October 20, 2022]
 
