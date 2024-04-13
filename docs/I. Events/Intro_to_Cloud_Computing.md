@@ -89,67 +89,12 @@ E --> M[Pay for Actual Usage]
     | AWS S3 Buckets |  |
 
     - AWS S3 Bucket Visual Representation   
-        ```mermaid
-        graph LR
-        A[User] --> B[Create S3 Bucket]
-        B --> C[Set Permissions (Public/Private/ACLs)]
-        C --> D[Store Data]
-        D --> E[Use Cases: ]
-            E --> F[Static Website Hosting]
-            E --> G[Data Backup and Archive]
-            E --> H[Big Data Analytics with Tools like Athena]
-            E --> I[Machine Learning Training Data]
-            E --> J[File Sharing]
-            E --> K[Disaster Recovery with Replication]
-        C --> L[Manage Data Lifecycle]
-            L --> M[Automate Movement between Storage Classes (e.g., Standard to Glacier)]
-        C --> N[Secure Data]
-            N --> O[Server-Side Encryption]
-            N --> P[Access Control Lists (ACLs) and Bucket Policies]
-        C --> Q[Manage Object Versions]
-            Q --> R[Revert to Previous Versions if Needed]
-        D --> S[Access Data]
-            S --> A[Download]
-            S --> T[Query with Athena]
-        ```
+        [AWS S3](https://a.l3n.co/i/OPqxzP.png)
 
     - AWS Amplify Visual Representation 
-        ```mermaid
-        graph LR
-        A[User] --> B[Develop App (Frontend & Backend)]
-        B --> C[Choose Backend Framework (optional)]
-            C --> C1[AWS Lambda (serverless functions)]
-            C --> C2[Amazon Cognito (user authentication)]
-            C --> C3[Amazon DynamoDB (NoSQL database)]
-            C --> C4[API Gateway (REST API)]
-            C --> C5[GraphQL API]
-        B --> D[Integrate with Amplify CLI/Console]
-        D --> E[Push to AWS Cloud]
-        E --> F[Amplify provisions resources:]
-            F --> F1[CloudFront (CDN for static content)]
-            F --> F2[S3 Bucket (static assets storage)]
-            F --> F3[Cognito User Pool (if applicable)]
-            F --> F4[Backend resources (Lambda, DynamoDB, etc. if applicable)]
-        E --> G[Frontend/Backend connected]
-        G --> H[Deploy App]
-            H --> I[Web App]
-            H --> J[Mobile App]
-        A --> K[Monitor & Analyze (Amplify Metrics)]
-        ```
+        [AWS Amplify](https://b.l3n.co/i/OPqaKo.png)
 
-6. Cloud Security and Best Practices
-    - Overview of cloud security concerns. 
-    - Best practices for securing cloud resources. 
-    - Compliance and data privacy considerations. 
-
-    | Topic | Description |
-    | --- | --- |
-    | Security Concerns | Data breaches, identity and access management, vulnerabilities and threats, data loss or leakage |
-    | Best Practices | Secure configuration, network segmentation, incident response, user awareness and training |
-    | Compliance and Data Privacy | Compliance standards, data privacy regulations, data residency requirements |
-
-
-7. Real-World Cloud Applications
+6. Real-World Cloud Applications
     - Case studies and examples of cloud adoption. 
     - Industry-specific use cases. 
 
@@ -163,7 +108,7 @@ E --> M[Pay for Actual Usage]
     | Internet of Things (IoT) |  Philips Hue: Cloud-based smart lighting system enabling remote control and automation. |  Smart Cities: Collecting and analyzing data from connected devices to improve urban infrastructure. |
 
 
-8. Future Trends in Cloud Computing
+7. Future Trends in Cloud Computing
     - Serverless computing
     - Edge computing
     - Artificial Intelligence (AI) and Machine Learning (ML) in the cloud 
@@ -187,7 +132,6 @@ E --> M[Pay for Actual Usage]
     ```
 
 
-
 ## 🌐 **Additional Resources**
 To continue your learning journey beyond this workshop, here are some recommended resources:
 
@@ -198,16 +142,7 @@ To continue your learning journey beyond this workshop, here are some recommende
 2. Online Courses:
     - Coursera: "Cloud Computing Basics" by University of Illinois at Urbana-Champaign 🖥️
     - FreeCodeCamp : "AWS Certified Cloud Practitioner Training 2020" by Andrew Brown 🎓
-
-
-
-
+    
 ---
 
  *To make such stunning visual documentation you can refer to the [MarkDown Tutorial](https://ahmedthahir.github.io/gdscbpdc/2022-2023/02_Markdown/) by GDSC!*
-
-
-
-
-
-            
