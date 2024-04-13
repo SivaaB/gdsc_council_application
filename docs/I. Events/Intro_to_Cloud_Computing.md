@@ -79,8 +79,7 @@ E --> M[Pay for Actual Usage]
     E --> C[Azure]
     ```
 
-
-5. Hands-on Cloud Experience
+5. Cloud Services [AWS Amplify + AWS S3 Buckets]
     - Account setup on AWS.  
     - Hosting a website or app using AWS on Free Tier can be done in two ways: 
 
@@ -89,16 +88,21 @@ E --> M[Pay for Actual Usage]
         | AWS Amplify | A service dedicated to hosting websites and applications on AWS Cloud, similar to Vercel and other website/app hosting services. |
         | AWS S3 Buckets | A service that provides scalable object storage containers in the cloud for data of any size and type. |
 
+     - AWS Amplify Visual Representation   
+        ![](https://b.l3n.co/i/OPqaKo.png)
+
      - AWS S3 Bucket Visual Representation   
         ![](https://a.l3n.co/i/OPqxzP.png)
 
-    - AWS Amplify Visual Representation   
-        ![](https://b.l3n.co/i/OPqaKo.png)
+6. Hands - On Lab
 
-        <iframe src="https://scribehow.com/embed/Create_AWS_Amplify_App_Deployment_for_Sivaab__rvt9hRXFRO2VZ4EjxU8jnA" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+    <iframe src="https://scribehow.com/embed/Create_AWS_Amplify_App_Deployment_for_Sivaab__rvt9hRXFRO2VZ4EjxU8jnA" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
+    
 
 
-6. Real-World Cloud Applications
+
+7. Real-World Cloud Applications
     - Case studies and examples of cloud adoption. 
     - Industry-specific use cases. 
 
@@ -112,7 +116,7 @@ E --> M[Pay for Actual Usage]
     | Internet of Things (IoT) |  Philips Hue: Cloud-based smart lighting system enabling remote control and automation. |  Smart Cities: Collecting and analyzing data from connected devices to improve urban infrastructure. |
 
 
-7. Future Trends in Cloud Computing
+8. Future Trends in Cloud Computing
     - Serverless computing
     - Edge computing
     - Artificial Intelligence (AI) and Machine Learning (ML) in the cloud 
