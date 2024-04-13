@@ -89,11 +89,13 @@ E --> M[Pay for Actual Usage]
         | AWS Amplify | A service dedicated to hosting websites and applications on AWS Cloud, similar to Vercel and other website/app hosting services. |
         | AWS S3 Buckets | A service that provides scalable object storage containers in the cloud for data of any size and type. |
 
-        - AWS S3 Bucket Visual Representation   
+     - AWS S3 Bucket Visual Representation   
         ![](https://a.l3n.co/i/OPqxzP.png)
 
-        - AWS Amplify Visual Representation   
+    - AWS Amplify Visual Representation   
         ![](https://b.l3n.co/i/OPqaKo.png)
+
+        <iframe src="https://scribehow.com/embed/Create_AWS_Amplify_App_Deployment_for_Sivaab__rvt9hRXFRO2VZ4EjxU8jnA" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
 
 6. Real-World Cloud Applications
