@@ -85,14 +85,17 @@ E --> M[Pay for Actual Usage]
     - Hosting a website or app using AWS on Free Tier can be done in two ways: 
 
     | Hosting an App or Website on AWS Free Tier |
+    | --- | --- |
     | AWS Amplify | A service which is dedicted to hosting website and application on AWS Cloud, similar to Vercel and other wesbite/app hosting services. |
-    | AWS S3 Buckets |  |
+    | AWS S3 Buckets | A Service which serves as scalable object storage containers in the cloud for data of any size and type. |
 
     - AWS S3 Bucket Visual Representation   
-        [](https://a.l3n.co/i/OPqxzP.png)
+
+![](https://a.l3n.co/i/OPqxzP.png)
 
     - AWS Amplify Visual Representation 
-        [](https://b.l3n.co/i/OPqaKo.png)
+        
+![](https://b.l3n.co/i/OPqaKo.png)
 
 6. Real-World Cloud Applications
     - Case studies and examples of cloud adoption. 
