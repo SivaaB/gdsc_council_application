@@ -89,10 +89,10 @@ E --> M[Pay for Actual Usage]
     | AWS S3 Buckets |  |
 
     - AWS S3 Bucket Visual Representation   
-        [AWS S3](https://a.l3n.co/i/OPqxzP.png)
+        [](https://a.l3n.co/i/OPqxzP.png)
 
     - AWS Amplify Visual Representation 
-        [AWS Amplify](https://b.l3n.co/i/OPqaKo.png)
+        [](https://b.l3n.co/i/OPqaKo.png)
 
 6. Real-World Cloud Applications
     - Case studies and examples of cloud adoption. 
@@ -142,7 +142,7 @@ To continue your learning journey beyond this workshop, here are some recommende
 2. Online Courses:
     - Coursera: "Cloud Computing Basics" by University of Illinois at Urbana-Champaign 🖥️
     - FreeCodeCamp : "AWS Certified Cloud Practitioner Training 2020" by Andrew Brown 🎓
-    
+
 ---
 
  *To make such stunning visual documentation you can refer to the [MarkDown Tutorial](https://ahmedthahir.github.io/gdscbpdc/2022-2023/02_Markdown/) by GDSC!*
