@@ -100,7 +100,7 @@ E --> M[Pay for Actual Usage]
         <iframe src="https://scribehow.com/embed/Create_AWS_Amplify_App_Deployment_for_Sivaab__rvt9hRXFRO2VZ4EjxU8jnA" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
     - Lab - 2: 
-        <iframe src="https://scribehow.com/embed/Hands__On_Lab2__AWS_S3_Bucket_for_Static_Website_Hosting__IuO7D6KTSuyRmtp269t8jQ?as=scrollable" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+        <iframe src="https://scribehow.com/embed/Hands__On_Lab2__AWS_S3_Bucket_for_Static_Website_Hosting__IuO7D6KTSuyRmtp269t8jQ" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
 
 7. Real-World Cloud Applications
