@@ -8,8 +8,8 @@ By the end of this workshop, you will:
 
 - Understand the fundamental concepts of cloud computing. 
 - Learn about different cloud service models and deployment models.
-- Explore popular cloud service providers.
-- Gain hands-on experience with cloud resources and services. 
+- Explore popular cloud service providers such as AWS, GCP and Azure. 
+- Gain hands-on experience with cloud resources and services such as AWS Amplify and AWS S3 Buckets.
 - Understand the benefits and challenges of cloud adoption. 
 
 ## 🔍 **Prerequisites**
@@ -18,6 +18,7 @@ To participate in this workshop, you should have a basic understanding of comput
 - Laptop with internet connectivity. 
 - Web browser (preferably Google Chrome or Mozilla Firefox).
 - A valid email address to create accounts on cloud platforms. 
+- Credit Card Details to signup for AWS.
 
 ## 🚀 **Workshop Outline**
 
@@ -80,28 +81,63 @@ E --> M[Pay for Actual Usage]
 
 
 5. Hands-on Cloud Experience
-    - Account setup on a cloud platform. 
-    - Provisioning virtual machines and storage resources. 
-    - Deploying and managing applications on the cloud. 
-    ```mermaid
+    - Account setup on AWS.  
+    - Hosting a website or app using AWS on Free Tier can be done in two ways: 
+
+    | Hosting an App or Website on AWS Free Tier |
+    | AWS Amplify | A service which is dedicted to hosting website and application on AWS Cloud, similar to Vercel and other wesbite/app hosting services. |
+    | AWS S3 Buckets |  |
+
+- AWS S3 Bucket Visual Representation
+
+```
     graph LR
-    A[Hands-on Cloud Experience] --> B[Account Setup]
-    A --> C[Provisioning Resources]
-    A --> D[Deploying and Managing Applications]
+A[User] --> B{Create S3 Bucket}
+B --> C{Set Permissions (Public/Private/ACLs)}
+C --> D{Store Data}
+D --> E{Use Cases: }
+    E --> F{Static Website Hosting}
+    E --> G{Data Backup and Archive}
+    E --> H{Big Data Analytics with Tools like Athena}
+    E --> I{Machine Learning Training Data}
+    E --> J{File Sharing}
+    E --> K{Disaster Recovery with Replication}
+C --> L{Manage Data Lifecycle}
+    L --> M{Automate Movement between Storage Classes (e.g., Standard to Glacier)}
+C --> N{Secure Data}
+    N --> O{Server-Side Encryption}
+    N --> P{Access Control Lists (ACLs) and Bucket Policies}
+C --> Q{Manage Object Versions}
+    Q --> R{Revert to Previous Versions if Needed}
+D --> S{Access Data}
+    S --> A{Download}
+    S --> T{Query with Athena}
+```
 
-    B -- Choose Cloud Platform --> E[Create Account]
-    B -- Set Up Billing --> F[Configure Payment Method]
-    B -- Configure Security --> G[Set Up Authentication]
+- AWS Amplify Visual Representation 
 
-    C -- Select Virtual Machines --> H[Provision VM Instances]
-    C -- Choose Storage Options --> I[Allocate Storage Resources]
-    C -- Define Networking --> J[Set Up Virtual Networks]
-
-    D -- Prepare Application --> K[Containerize/Package Application]
-    D -- Choose Deployment Method --> L[Deploy Application]
-    D -- Configure Monitoring --> M[Set Up Application Monitoring]
-    D -- Perform Updates --> N[Manage Application Lifecycle]
-    ```
+```
+graph LR
+A[User] --> B{Develop App (Frontend & Backend)}
+B --> C{Choose Backend Framework (optional)}
+    C --> C1{AWS Lambda (serverless functions)}
+    C --> C2{Amazon Cognito (user authentication)}
+    C --> C3{Amazon DynamoDB (NoSQL database)}
+    C --> C4{API Gateway (REST API)}
+    C --> C5{GraphQL API}
+B --> D{Integrate with Amplify CLI/Console}
+D --> E{Push to AWS Cloud}
+E --> F{Amplify provisions resources:}
+    F --> F1{CloudFront (CDN for static content)}
+    F --> F2{S3 Bucket (static assets storage)}
+    F --> F3{Cognito User Pool (if applicable)}
+    F --> F4{Backend resources (Lambda, DynamoDB, etc. if applicable)}
+E --> G{Frontend/Backend connected}
+G --> H{Deploy App}
+    H --> I{Web App}
+    H --> J{Mobile App}
+A --> K{Monitor & Analyze (Amplify Metrics)}
+```
 
 6. Cloud Security and Best Practices
     - Overview of cloud security concerns. 
