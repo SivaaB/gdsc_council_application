@@ -1,0 +1,889 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../II.%20Competitions/competiton_concept/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>📄 Introduction to Cloud Computing - GDSC Council Application</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#4285F4" data-md-color-accent="#F4B400">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction-to-cloud-computing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="GDSC Council Application" class="md-header__button md-logo" aria-label="GDSC Council Application" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GDSC Council Application
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              📄 Introduction to Cloud Computing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="#4285F4" data-md-color-accent="#F4B400"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="#4285F4" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="GDSC Council Application" class="md-nav__button md-logo" aria-label="GDSC Council Application" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    GDSC Council Application
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    I. Events
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            I. Events
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    📄 Introduction to Cloud Computing
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    📄 Introduction to Cloud Computing
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workshop-outline" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Workshop Outline
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Additional Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    II. Competitions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            II. Competitions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../II.%20Competitions/competiton_concept/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    💡 College Innovators' Challenge: Enhancing Campus Life
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    III. CC
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            III. CC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../III.%20CC/Point_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Event Recap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="introduction-to-cloud-computing">📄 Introduction to Cloud Computing</h1>
+<hr />
+<h2 id="overview">📋 <strong>Overview</strong></h2>
+<p>Welcome to the "Introduction to Cloud Computing" workshop! In this session, we will explore the world of cloud computing and its applications. Cloud computing has revolutionized the way businesses and individuals store, manage, and process data. This workshop aims to provide you with a solid foundation in cloud computing concepts, services, and benefits. </p>
+<h2 id="objectives">🎯 <strong>Objectives</strong></h2>
+<p>By the end of this workshop, you will:</p>
+<ul>
+<li>Understand the fundamental concepts of cloud computing. </li>
+<li>Learn about different cloud service models and deployment models.</li>
+<li>Explore popular cloud service providers such as AWS, GCP and Azure. </li>
+<li>Gain hands-on experience with cloud resources and services such as AWS Amplify and AWS S3 Buckets.</li>
+<li>Understand the benefits and challenges of cloud adoption. </li>
+</ul>
+<h2 id="prerequisites">🔍 <strong>Prerequisites</strong></h2>
+<p>To participate in this workshop, you should have a basic understanding of computer systems and networking. Familiarity with programming concepts and the command line interface will be beneficial. Please ensure you have the following requirements met:</p>
+<ul>
+<li>Laptop with internet connectivity. </li>
+<li>Web browser (preferably Google Chrome or Mozilla Firefox).</li>
+<li>A valid email address to create accounts on cloud platforms. </li>
+<li>Credit Card Details to signup for AWS.</li>
+</ul>
+<h2 id="workshop-outline">🚀 <strong>Workshop Outline</strong></h2>
+<p><em>The workshop will consist of the following sections:</em></p>
+<ol>
+<li>
+<p>Introduction to Cloud Computing</p>
+<ul>
+<li>Overview of cloud computing and its importance: <ul>
+<li>Cloud Computing is defined as the practice of using remote servers hosted on the internet to store, manage and process data rather than using a local. </li>
+</ul>
+</li>
+<li>Benefits and challenges of adopting cloud services. 
+<pre class="mermaid"><code>graph TB
+A[Cloud Computing] --&gt; B[On-demand Network Access]
+A --&gt; C[Resource Pooling]
+A --&gt; D[Rapid Elasticity]
+A --&gt; E[Measured Service]
+B --&gt; F[Access Services Anytime]
+B --&gt; G[Connectivity from Anywhere]
+C --&gt; H[Shared Infrastructure]
+C --&gt; I[Multi-tenancy]
+D --&gt; J[Scale Resources Up or Down]
+D --&gt; K[Pay for Actual Usage]
+E --&gt; L[Monitor and Optimize Performance]
+E --&gt; M[Pay for Actual Usage]</code></pre></li>
+</ul>
+</li>
+<li>
+<p>Cloud Service Models</p>
+<ul>
+<li>Infrastructure as a Service (IaaS)</li>
+<li>Platform as a Service (PaaS)</li>
+<li>
+<p>Software as a Service (SaaS)</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Service Model</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IAAS</td>
+<td>Infrastructure as a Service</td>
+<td>Amazon EC2, Azure Blob Storage, Google Cloud VPC</td>
+</tr>
+<tr>
+<td>SAAS</td>
+<td>Software as a Service</td>
+<td>Gmail, Google Docs, Salesforce</td>
+</tr>
+<tr>
+<td>PAAS</td>
+<td>Platform as a Service</td>
+<td>Heroku, Azure App Service, AWS RDS</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+<li>
+<p>Cloud Deployment Models</p>
+<ul>
+<li>Public, private, hybrid, and multi-cloud environments. </li>
+<li>Considerations for choosing a deployment model. </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Cloud Deployment Models</th>
+<th>Considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Public Cloud</td>
+<td>Scalability, Cost, Convenience</td>
+</tr>
+<tr>
+<td>Private Cloud</td>
+<td>Control, Security, Compliance</td>
+</tr>
+<tr>
+<td>Hybrid Cloud</td>
+<td>Flexibility, Data Sovereignty, Cost</td>
+</tr>
+<tr>
+<td>Multi-cloud</td>
+<td>Vendor Lock-In, Redundancy, Data Portability</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Popular Cloud Service Providers</p>
+<ul>
+<li>Amazon Web Services (AWS)</li>
+<li>Google Cloud Platform (GCP) </li>
+<li>Microsoft Azure 
+<pre class="mermaid"><code>graph LR
+E[Cloud Service Providers] --&gt; A[AWS]
+E --&gt; B[GCP]
+E --&gt; C[Azure]</code></pre></li>
+</ul>
+</li>
+<li>
+<p>Cloud Services [AWS Amplify + AWS S3 Buckets]</p>
+<ul>
+<li>Account setup on AWS.  </li>
+<li>
+<p>Hosting a website or app using AWS on Free Tier can be done in two ways: </p>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AWS Amplify</td>
+<td>A service dedicated to hosting websites and applications on AWS Cloud, similar to Vercel and other website/app hosting services.</td>
+</tr>
+<tr>
+<td>AWS S3 Buckets</td>
+<td>A service that provides scalable object storage containers in the cloud for data of any size and type.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>AWS Amplify Visual Representation <br />
+<img alt="" src="https://b.l3n.co/i/OPqaKo.png" /></p>
+</li>
+<li>
+<p>AWS S3 Bucket Visual Representation <br />
+<img alt="" src="https://a.l3n.co/i/OPqxzP.png" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Hands - On Lab</p>
+<ul>
+<li>Lab - 1: 
+    <iframe src="https://scribehow.com/embed/Deploy_Django_App_on_Cloud_using_pythonanywherecom__kzZar1_6Ti2jt0nZ2h5Wsw" width="100%" height="640" allowfullscreen frameborder="0"></iframe></li>
+<li>
+<p>Lab - 2: 
+    <iframe src="https://scribehow.com/embed/Create_AWS_Amplify_App_Deployment_for_Sivaab__rvt9hRXFRO2VZ4EjxU8jnA" width="100%" height="640" allowfullscreen frameborder="0"></iframe></p>
+</li>
+<li>
+<p>Lab - 3: 
+    <iframe src="https://scribehow.com/embed/Hands__On_Lab2__AWS_S3_Bucket_for_Static_Website_Hosting__IuO7D6KTSuyRmtp269t8jQ" width="100%" height="640" allowfullscreen frameborder="0"></iframe></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Real-World Cloud Applications</p>
+<ul>
+<li>Case studies and examples of cloud adoption. </li>
+<li>Industry-specific use cases. </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Cloud Applications</th>
+<th>Case Studies and Examples</th>
+<th>Industry-Specific Use Cases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Infrastructure as a Service (IAAS)</td>
+<td>Netflix: Migrated its video streaming platform to AWS, leveraging its scalability and global reach.</td>
+<td>E-commerce: Hosting websites and managing scalable infrastructure for online retail.</td>
+</tr>
+<tr>
+<td>Software as a Service (SAAS)</td>
+<td>Salesforce: Provides customer relationship management (CRM) software as a cloud-based service.</td>
+<td>Healthcare: Managing electronic health records and telehealth solutions.</td>
+</tr>
+<tr>
+<td>Platform as a Service (PAAS)</td>
+<td>Heroku: Offers a cloud application platform for developers to deploy and scale applications.</td>
+<td>Financial Services: Building and deploying fintech applications for banking and investment management.</td>
+</tr>
+<tr>
+<td>Cloud Storage and Backup</td>
+<td>Dropbox: Provides cloud storage and file synchronization services for individuals and businesses.</td>
+<td>Media and Entertainment: Storing and streaming large media files for content distribution.</td>
+</tr>
+<tr>
+<td>Big Data and Analytics</td>
+<td>Airbnb: Utilizes cloud-based data analytics to gain insights into user behavior and optimize pricing.</td>
+<td>Manufacturing: Analyzing sensor data for predictive maintenance and optimizing production processes.</td>
+</tr>
+<tr>
+<td>Internet of Things (IoT)</td>
+<td>Philips Hue: Cloud-based smart lighting system enabling remote control and automation.</td>
+<td>Smart Cities: Collecting and analyzing data from connected devices to improve urban infrastructure.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Future Trends in Cloud Computing</p>
+<ul>
+<li>Serverless computing</li>
+<li>Edge computing</li>
+<li>Artificial Intelligence (AI) and Machine Learning (ML) in the cloud 
+<pre class="mermaid"><code>graph LR
+A[Future Trends] --&gt; B[Serverless Computing]
+A --&gt; C[Edge Computing]
+A --&gt; D[AI and ML in the Cloud]
+
+B --&gt; B1[Automatic Scaling]
+B --&gt; B2[Cost Optimization]
+B --&gt; B3[Event-driven Execution]
+
+C --&gt; C1[Reduced Latency]
+C --&gt; C2[Real-time Processing]
+C --&gt; C3[Beneficial for IoT and Data-intensive Workloads]
+
+D --&gt; D1[Scalable Infrastructure]
+D --&gt; D2[Development, Training, and Deployment of AI/ML Models]
+D --&gt; D3[Pre-built AI Services]</code></pre></li>
+</ul>
+</li>
+</ol>
+<h2 id="additional-resources">🌐 <strong>Additional Resources</strong></h2>
+<p>To continue your learning journey beyond this workshop, here are some recommended resources:</p>
+<ol>
+<li>
+<p>Books:</p>
+<ul>
+<li>"Cloud Computing: Concepts, Technology &amp; Architecture" by Thomas Erl, Ricardo Puttini, and Zaigham Mahmood 📚</li>
+<li>"Cloud Native: Using Containers, Functions, and Data to Build Next-Generation Applications" by Boris Scholl, Trent Swanson, and Peter Jausovec 📚</li>
+</ul>
+</li>
+<li>
+<p>Online Courses:</p>
+<ul>
+<li>Coursera: "Cloud Computing Basics" by University of Illinois at Urbana-Champaign 🖥️</li>
+<li>FreeCodeCamp : "AWS Certified Cloud Practitioner Training 2020" by Andrew Brown 🎓</li>
+</ul>
+</li>
+</ol>
+<hr />
+<p><em>To make such stunning visual documentation you can refer to the <a href="https://ahmedthahir.github.io/gdscbpdc/2022-2023/02_Markdown/">MarkDown Tutorial</a> by GDSC!</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href='https://github.com/sivaab'  target='_blank' rel='noopener'>Sivaa B</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>
